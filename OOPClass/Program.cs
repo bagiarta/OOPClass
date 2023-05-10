@@ -26,11 +26,11 @@ namespace OOPClass
     static void Main(string[] args)
         {
             car car1 = new car();
-            Console.WriteLine("masukan brand mobil");
+            Console.WriteLine("===MASUKAN BRAND MOBIL===");
             car1.brand = Console.ReadLine();
-            Console.WriteLine("masukan warna mobil");
+            Console.WriteLine("===MASUKAN WARNA MOBIL===");
             car1.color = Console.ReadLine();
-            Console.WriteLine("masukan plat nomor mobil");
+            Console.WriteLine("===MASUKAN PLAT NOMOR MOBIL===");
             car1.LicensePlate = Console.ReadLine();
 
             car1.keyon();
